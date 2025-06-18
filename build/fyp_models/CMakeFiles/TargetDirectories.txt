@@ -1,0 +1,9 @@
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/uninstall.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/fyp_models_uninstall.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/test.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/edit_cache.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/rebuild_cache.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/list_install_components.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/install.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/install/local.dir
+/home/tudor/Desktop/fyp/build/fyp_models/CMakeFiles/install/strip.dir

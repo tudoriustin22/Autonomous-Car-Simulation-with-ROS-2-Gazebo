@@ -1,0 +1,4 @@
+source;share/fyp_models/local_setup.bash
+source;share/fyp_models/local_setup.dsv
+source;share/fyp_models/local_setup.sh
+source;share/fyp_models/local_setup.zsh
