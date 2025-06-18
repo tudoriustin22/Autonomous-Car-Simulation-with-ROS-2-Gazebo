@@ -1,0 +1,51 @@
+material RoadV2/Exterior
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0 1.0
+            specular 0.2 0.2 0.2 1.0
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit
+            {
+                texture ../textures/roadDesign.png
+                filtering anistropic
+                max_anisotropy 16
+                scale 1.0 1.0
+                tex_address_mode wrap
+                colour_op replace
+                rotate 0
+            }
+        }
+    }
+}
+
+material RoadV2/Lane
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0 1.0
+            specular 0.2 0.2 0.2 1.0
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit
+            {
+                texture ../textures/roadDesign.png
+                filtering anistropic
+                max_anisotropy 16
+                scale 1.0 1.0
+                tex_address_mode wrap
+                colour_op replace
+                rotate 90
+            }
+        }
+    }
+} 

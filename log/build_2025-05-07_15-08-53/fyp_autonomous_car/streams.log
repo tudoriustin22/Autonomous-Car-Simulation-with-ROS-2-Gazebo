@@ -1,0 +1,23 @@
+[0.269s] Invoking command in '/home/tudor/Desktop/fyp/src/fyp_autonomous_car': PYTHONPATH=/home/tudor/Desktop/fyp/build/fyp_autonomous_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fyp_autonomous_car build --build-base /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build install --record /home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log --single-version-externally-managed install_data
+[0.368s] running egg_info
+[0.369s] writing ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/PKG-INFO
+[0.369s] writing dependency_links to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/dependency_links.txt
+[0.369s] writing entry points to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/entry_points.txt
+[0.369s] writing requirements to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/requires.txt
+[0.369s] writing top-level names to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/top_level.txt
+[0.369s] reading manifest file '../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+[0.373s] writing manifest file '../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+[0.373s] running build
+[0.373s] running build_py
+[0.373s] running install
+[0.373s] running install_lib
+[0.373s] running install_data
+[0.373s] running install_egg_info
+[0.373s] removing '/home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info' (and everything under it)
+[0.373s] Copying ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info
+[0.374s] running install_scripts
+[0.384s] Installing carVision_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.384s] Installing driving_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.384s] Installing videoOutput_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.385s] writing list of installed files to '/home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log'
+[0.399s] Invoked command in '/home/tudor/Desktop/fyp/src/fyp_autonomous_car' returned '0': PYTHONPATH=/home/tudor/Desktop/fyp/build/fyp_autonomous_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fyp_autonomous_car build --build-base /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build install --record /home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="greenLight">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0 1 0 1</ambient>
+          <diffuse>0 1 0 1</diffuse>
+          <specular>0 1 0 1</specular>
+          <emissive>0 1 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+    <plugin name="greenlight_ros" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/traffic_light</namespace>
+        <remapping>model_state:=green_light_state</remapping>
+      </ros>
+      <update_rate>10</update_rate>
+    </plugin>
+  </model>
+</sdf> 

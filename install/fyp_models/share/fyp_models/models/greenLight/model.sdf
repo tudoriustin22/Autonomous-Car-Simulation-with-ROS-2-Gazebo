@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="greenLight">
+    <static>true</static>
+    
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.05</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.05</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Green</name>
+          </script>
+        </material>
+      </visual>
+      
+      <light name="green_light" type="point">
+        <pose>0 0 0 0 0 0</pose>
+        <diffuse>0 1 0 1</diffuse>
+        <specular>0 1 0 1</specular>
+        <attenuation>
+          <range>2</range>
+          <constant>0.5</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </link>
+    
+    <plugin name="light_control" filename="libFlashLightPlugin.so">
+      <enable>true</enable>
+      <light>
+        <id>link/green_light</id>
+        <block>
+          <duration>9.0</duration>
+          <interval>0.0</interval>
+          <color>0 0 0</color>
+        </block>
+        <block>
+          <duration>10.0</duration>
+          <interval>0.0</interval>
+          <color>0 1 0</color>
+        </block>
+      </light>
+    </plugin>
+  </model>
+</sdf> 

@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="light_model">
+    <static>true</static>
+    
+    <link name="cylinder">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+      <light name="light_source1" type="spot">
+        <pose>0 0 0.15 0 0 0</pose>
+        <diffuse>0 1 0 1</diffuse>
+        <specular>0 1 0 1</specular>
+        <attenuation>
+          <range>20</range>
+          <constant>0.5</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+        </attenuation>
+        <spot>
+          <inner_angle>0.6</inner_angle>
+          <outer_angle>1.0</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+        <cast_shadows>false</cast_shadows>
+      </light>
+
+      <light name="light_source2" type="spot">
+        <pose>0 0 0 0 0 0</pose>
+        <diffuse>1 0 0 1</diffuse>
+        <specular>1 0 0 1</specular>
+        <attenuation>
+          <range>20</range>
+          <constant>0.5</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+        </attenuation>
+        <spot>
+          <inner_angle>0.6</inner_angle>
+          <outer_angle>1.0</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </link>
+
+    <link name="box">
+      <pose>0 0 0.3 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+      <light name="light_source3" type="spot">
+        <pose>0 0 0.1 0 0 0</pose>
+        <diffuse>1 1 0 1</diffuse>
+        <specular>1 1 0 1</specular>
+        <attenuation>
+          <range>20</range>
+          <constant>0.5</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+        </attenuation>
+        <spot>
+          <inner_angle>0.6</inner_angle>
+          <outer_angle>1.0</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+        <cast_shadows>false</cast_shadows>
+      </light>
+
+      <light name="light_source4" type="spot">
+        <pose>0 0 -0.1 0 0 0</pose>
+        <diffuse>1 1 0 1</diffuse>
+        <specular>1 1 0 1</specular>
+        <attenuation>
+          <range>20</range>
+          <constant>0.5</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+        </attenuation>
+        <spot>
+          <inner_angle>0.6</inner_angle>
+          <outer_angle>1.0</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </link>
+
+    <joint name="box_to_cylinder" type="fixed">
+      <parent>cylinder</parent>
+      <child>box</child>
+    </joint>
+
+    <plugin name="light_control" filename="libFlashLightPlugin.so">
+      <enable>true</enable>
+      <light>
+        <id>cylinder/light_source1</id>
+        <duration>0.5</duration>
+        <interval>0.5</interval>
+      </light>
+      <light>
+        <id>cylinder/light_source2</id>
+        <duration>0.3</duration>
+        <interval>1.2</interval>
+        <color>1 0 0</color>
+      </light>
+      <light>
+        <id>box/light_source3</id>
+        <duration>1.0</duration>
+        <interval>0.1</interval>
+        <enable>false</enable>
+      </light>
+      <light>
+        <id>box/light_source4</id>
+        <block>
+          <duration>1.0</duration>
+          <interval>0</interval>
+          <color>1 1 0</color>
+        </block>
+        <block>
+          <duration>1.0</duration>
+          <interval>0.3</interval>
+          <color>0 1 1</color>
+        </block>
+        <enable>true</enable>
+      </light>
+    </plugin>
+  </model>
+</sdf>

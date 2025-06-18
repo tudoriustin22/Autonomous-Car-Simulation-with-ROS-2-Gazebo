@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info
+writing ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/PKG-INFO
+writing dependency_links to ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/dependency_links.txt
+writing entry points to ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/entry_points.txt
+writing requirements to ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/requires.txt
+writing top-level names to ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/top_level.txt
+writing manifest file '../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+reading manifest file '../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+writing manifest file '../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/ament_index
+creating /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/ament_index/resource_index
+creating /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/ament_index/resource_index/packages
+copying resource/fyp_autonomous_car -> /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/ament_index/resource_index/packages
+copying package.xml -> /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car
+creating /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/launch
+copying launch/gazebo.launch.py -> /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/launch
+copying launch/testingLaneDetection.launch.py -> /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/launch
+creating /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/worlds
+copying worlds/world_fyp.world -> /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/worlds
+running install_egg_info
+Copying ../build/fyp_autonomous_car/fyp_autonomous_car.egg-info to /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info
+running install_scripts
+Installing carVision_node script to /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car
+Installing driving_node script to /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car
+Installing videoOutput_node script to /home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car
+writing list of installed files to '/home/tudor/Desktop/fyp/src/build/fyp_autonomous_car/install.log'

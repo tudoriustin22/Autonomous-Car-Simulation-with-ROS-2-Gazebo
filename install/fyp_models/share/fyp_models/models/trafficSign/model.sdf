@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='trafficSign'>
+    <static>1</static>
+    <link name='link'>
+      <!-- Base -->
+      <visual name='base'>
+        <pose>0 0 0.025 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.4 0.4 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/DarkGrey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='base_collision'>
+        <pose>0 0 0.025 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.4 0.4 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <!-- Stand -->
+      <visual name='stand'>
+        <pose>0 0 0.975 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>1.85</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='stand_collision'>
+        <pose>0 0 0.975 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>1.85</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <!-- Sign face -->
+      <visual name='sign'>
+        <pose>0 0 1.9 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.8 0.8</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://trafficSign/materials/scripts</uri>
+            <uri>model://trafficSign/materials/textures</uri>
+            <name>trafficSign/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='sign_collision'>
+        <pose>0 0 1.9 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.8 0.8</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,76 @@
+[0.325s] Invoking command in '/home/tudor/Desktop/fyp/src/fyp_autonomous_car': PYTHONPATH=/home/tudor/Desktop/fyp/build/fyp_autonomous_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fyp_autonomous_car build --build-base /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build install --record /home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log --single-version-externally-managed install_data
+[0.435s] running egg_info
+[0.435s] creating ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info
+[0.436s] writing ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/PKG-INFO
+[0.436s] writing dependency_links to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/top_level.txt
+[0.436s] writing manifest file '../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+[0.437s] reading manifest file '../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+[0.437s] writing manifest file '../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info/SOURCES.txt'
+[0.437s] running build
+[0.438s] running build_py
+[0.438s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build
+[0.438s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib
+[0.438s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] copying fyp_autonomous_car/driving_node.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] copying fyp_autonomous_car/videoOutput_node.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] copying fyp_autonomous_car/__init__.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] copying fyp_autonomous_car/drivingRobot.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] copying fyp_autonomous_car/carVision_node.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car
+[0.438s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule
+[0.439s] copying fyp_autonomous_car/DetectionModule/__init__.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule
+[0.439s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/config
+[0.439s] copying fyp_autonomous_car/config/__init__.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/config
+[0.439s] copying fyp_autonomous_car/config/config.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/config
+[0.440s] creating /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane
+[0.440s] copying fyp_autonomous_car/DetectionModule/Lane/segmentColor.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane
+[0.440s] copying fyp_autonomous_car/DetectionModule/Lane/laneDetection.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane
+[0.440s] copying fyp_autonomous_car/DetectionModule/Lane/__init__.py -> /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane
+[0.440s] running install
+[0.440s] running install_lib
+[0.440s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.440s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/driving_node.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.440s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/videoOutput_node.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.440s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/__init__.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.441s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule
+[0.441s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane/segmentColor.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane/laneDetection.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/Lane/__init__.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/DetectionModule/__init__.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/drivingRobot.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/carVision_node.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car
+[0.441s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/config
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/config/__init__.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/config
+[0.441s] copying /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build/lib/fyp_autonomous_car/config/config.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/config
+[0.441s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/driving_node.py to driving_node.cpython-310.pyc
+[0.441s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/videoOutput_node.py to videoOutput_node.cpython-310.pyc
+[0.441s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/__init__.py to __init__.cpython-310.pyc
+[0.441s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane/segmentColor.py to segmentColor.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane/laneDetection.py to laneDetection.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/Lane/__init__.py to __init__.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/DetectionModule/__init__.py to __init__.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/drivingRobot.py to drivingRobot.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/carVision_node.py to carVision_node.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/config/__init__.py to __init__.cpython-310.pyc
+[0.442s] byte-compiling /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car/config/config.py to config.cpython-310.pyc
+[0.442s] running install_data
+[0.442s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/ament_index
+[0.442s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/ament_index/resource_index
+[0.442s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/ament_index/resource_index/packages
+[0.442s] copying resource/fyp_autonomous_car -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/ament_index/resource_index/packages
+[0.442s] copying package.xml -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/fyp_autonomous_car
+[0.442s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/fyp_autonomous_car/launch
+[0.442s] copying launch/gazebo.launch.py -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/fyp_autonomous_car/launch
+[0.442s] creating /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/fyp_autonomous_car/worlds
+[0.443s] copying worlds/world_fyp.world -> /home/tudor/Desktop/fyp/install/fyp_autonomous_car/share/fyp_autonomous_car/worlds
+[0.443s] running install_egg_info
+[0.443s] Copying ../../build/fyp_autonomous_car/fyp_autonomous_car.egg-info to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info
+[0.444s] running install_scripts
+[0.455s] Installing carVision_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.455s] Installing driving_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.455s] Installing videoOutput_node script to /home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/fyp_autonomous_car
+[0.455s] writing list of installed files to '/home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log'
+[0.469s] Invoked command in '/home/tudor/Desktop/fyp/src/fyp_autonomous_car' returned '0': PYTHONPATH=/home/tudor/Desktop/fyp/build/fyp_autonomous_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tudor/Desktop/fyp/install/fyp_autonomous_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fyp_autonomous_car build --build-base /home/tudor/Desktop/fyp/build/fyp_autonomous_car/build install --record /home/tudor/Desktop/fyp/build/fyp_autonomous_car/install.log --single-version-externally-managed install_data

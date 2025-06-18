@@ -1,0 +1,145 @@
+[0.149s] Invoking command in '/home/tudor/Desktop/fyp/build/fyp_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake /home/tudor/Desktop/fyp/src/fyp_models -DCMAKE_INSTALL_PREFIX=/home/tudor/Desktop/fyp/install/fyp_models
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.575s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.576s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.695s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Configuring done
+[0.800s] -- Generating done
+[0.801s] -- Build files have been written to: /home/tudor/Desktop/fyp/build/fyp_models
+[0.804s] Invoked command in '/home/tudor/Desktop/fyp/build/fyp_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake /home/tudor/Desktop/fyp/src/fyp_models -DCMAKE_INSTALL_PREFIX=/home/tudor/Desktop/fyp/install/fyp_models
+[0.805s] Invoking command in '/home/tudor/Desktop/fyp/build/fyp_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake --build /home/tudor/Desktop/fyp/build/fyp_models -- -j8 -l8
+[0.855s] Invoked command in '/home/tudor/Desktop/fyp/build/fyp_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake --build /home/tudor/Desktop/fyp/build/fyp_models -- -j8 -l8
+[0.868s] Invoking command in '/home/tudor/Desktop/fyp/build/fyp_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake --install /home/tudor/Desktop/fyp/build/fyp_models
+[0.879s] -- Install configuration: ""
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/model.sdf
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/._.DS_Store
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/textures
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/textures/._speed_limit.png
+[0.879s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/textures/speed_limit.png
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/scripts
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/materials/scripts/trafficSign.material
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/meshes
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/meshes/stand.obj
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/meshes/sign.obj
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/._.DS_Store
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficSign/model.config
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/model.sdf
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/._.DS_Store
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/textures
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/textures/._stop.png
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/textures/stop.png
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/scripts
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/materials/scripts/stopSign.material
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/._.DS_Store
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stopSign/model.config
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/model.sdf
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/materials
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/materials/textures
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/materials/textures/Wheels3.png
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/materials/textures/Hybrid.png
+[0.880s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/materials/textures/Hybrid_Interior.png
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/meshes
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/meshes/Hybrid.mtl
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/meshes/Hybrid.obj
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/priusHybrid/model.config
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light/model.sdf
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light/model.config
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficLight
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficLight/model.sdf
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/trafficLight/model.config
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speed_limit_20.png
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/._stop.png
+[0.881s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/red-light
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/red-light/model.sdf
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/red-light/model.config
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/model.sdf
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials/textures
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials/textures/roadDesign.png
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials/textures/._roadDesign.png
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials/scripts
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/materials/scripts/road.material
+[0.882s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/meshes
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/meshes/RoadExterior.dae
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/meshes/RoadLane1.dae
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/meshes/RoadLane2.dae
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/meshes/RoadLane3.dae
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/RoadV2/model.config
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turn_left.png
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/._.DS_Store
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light_parts
+[0.883s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light_parts/meshes
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light_parts/meshes/lightBox.obj
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light_parts/meshes/lightStand.obj
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/traffic_light_parts/model.config
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/._speed_limit_20.png
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/yellowLight
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/yellowLight/model.sdf
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/yellowLight/model.config
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/redLight
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/redLight/model.sdf
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/redLight/model.config
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/green-light
+[0.884s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/green-light/model.sdf
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/green-light/model.config
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/model.sdf
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/._.DS_Store
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/textures
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/textures/turn_left.png
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/textures/._turn_left.png
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/scripts
+[0.885s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/materials/scripts/turnLeftSign.material
+[0.886s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/._.DS_Store
+[0.886s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/turnLeftSign/model.config
+[0.886s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/._turn_left.png
+[0.886s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/greenLight
+[0.887s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/greenLight/model.sdf
+[0.887s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/greenLight/model.config
+[0.887s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/model.sdf
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/._.DS_Store
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/textures
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/textures/speed_limit_20.png
+[0.888s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/textures/._speed_limit_20.png
+[0.889s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/scripts
+[0.889s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/materials/scripts/speedLimit20Sign.material
+[0.889s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/._.DS_Store
+[0.889s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/speedLimit20Sign/model.config
+[0.889s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/models/stop.png
+[0.890s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/ament_index/resource_index/package_run_dependencies/fyp_models
+[0.890s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/ament_index/resource_index/parent_prefix_path/fyp_models
+[0.890s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/environment/ament_prefix_path.sh
+[0.890s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/environment/ament_prefix_path.dsv
+[0.891s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/environment/path.sh
+[0.891s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/environment/path.dsv
+[0.891s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/local_setup.bash
+[0.892s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/local_setup.sh
+[0.892s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/local_setup.zsh
+[0.892s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/local_setup.dsv
+[0.892s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/package.dsv
+[0.892s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/ament_index/resource_index/packages/fyp_models
+[0.893s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/cmake/fyp_modelsConfig.cmake
+[0.893s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/cmake/fyp_modelsConfig-version.cmake
+[0.893s] -- Installing: /home/tudor/Desktop/fyp/install/fyp_models/share/fyp_models/package.xml
+[0.893s] Invoked command in '/home/tudor/Desktop/fyp/build/fyp_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tudor/Desktop/fyp/install/fyp_autonomous_car:/opt/ros/humble /usr/bin/cmake --install /home/tudor/Desktop/fyp/build/fyp_models

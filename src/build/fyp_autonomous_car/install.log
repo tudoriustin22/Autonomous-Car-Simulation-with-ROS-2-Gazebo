@@ -1,0 +1,15 @@
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/ament_index/resource_index/packages/fyp_autonomous_car
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/package.xml
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/launch/gazebo.launch.py
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/launch/testingLaneDetection.launch.py
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/share/fyp_autonomous_car/worlds/world_fyp.world
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/PKG-INFO
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/top_level.txt
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/entry_points.txt
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/requires.txt
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/python3.10/site-packages/fyp_autonomous_car-0.0.0-py3.10.egg-info/zip-safe
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car/carVision_node
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car/driving_node
+/home/tudor/Desktop/fyp/src/install/fyp_autonomous_car/lib/fyp_autonomous_car/videoOutput_node

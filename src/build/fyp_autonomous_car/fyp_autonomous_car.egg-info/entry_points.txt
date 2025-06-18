@@ -1,0 +1,5 @@
+[console_scripts]
+carVision_node = fyp_autonomous_car.carVision_node:main
+driving_node = fyp_autonomous_car.driving_node:main
+videoOutput_node = fyp_autonomous_car.videoOutput_node:main
+
